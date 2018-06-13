@@ -1,0 +1,80 @@
+\begin{thebibliography}{10}
+
+\bibitem{aho_compilers:_2006}
+Alfred~V. Aho, Monica~S. Lahm, Ravi Sethi, and Jeffrey~D. Ullmann.
+\newblock {\em Compilers: {Principles}, {Techniques}, and {Tools}}.
+\newblock Addison Wesley, 2nd edition, 2006.
+
+\bibitem{apple_swift_2014}
+Apple.
+\newblock Swift - {Apple} {Developer}.
+\newblock URL: \url{https://developer.apple.com/swift/}.
+
+\bibitem{bauer_nobeard_2015}
+Peter Bauer.
+\newblock The {NoBeard} {Report}.
+\newblock Technical report, HTBLA Leonding, Leonding, 2015.
+
+\bibitem{khason_computer_2008}
+Tamir Khason.
+\newblock Computer languages and facial hair -- take two, 2008.
+\newblock URL:
+  \url{http://khason.net/blog/computer-languages-and-facial-hair-%e2%80%93-take-two/}.
+
+\bibitem{rechenberg_compiler-generator_1988}
+Peter Rechenberg and Hanspeter M{\"o}ssenb{\"o}ck.
+\newblock {\em Ein {Compiler}-{Generator} f{\"u}r {Mikrocomputer}}.
+\newblock Hanser, M{\"u}nchen, 2nd edition, 1988.
+
+\bibitem{tanenbaum_modern_2009}
+Andrew~S. Tanenbaum.
+\newblock {\em Modern {Operating} {Systems}}.
+\newblock Pearson International Edition, 3rd edition, 2009.
+
+\bibitem{terry_compiling_2004}
+Pat Terry.
+\newblock {\em Compiling {With} {C}\# {And} {Java}}.
+\newblock Addison-Wesley Educational Publishers Inc, Harlow, England; New York,
+  2004.
+
+\bibitem{wikipedia_jean_2014}
+Wikipedia.
+\newblock Jean {Ichbiah}, December 2014.
+\newblock Page Version ID: 639475683.
+\newblock URL:
+  \url{http://en.wikipedia.org/w/index.php?title=Jean_Ichbiah&oldid=639475683}.
+
+\bibitem{wikipedia_adele_2015}
+Wikipedia.
+\newblock Adele {Goldberg} (computer scientist), January 2015.
+\newblock Page Version ID: 644121205.
+\newblock URL:
+  \url{http://en.wikipedia.org/w/index.php?title=Adele_Goldberg_(computer_scientist)&oldid=644121205}.
+
+\bibitem{wikipedia_barbara_2015}
+Wikipedia.
+\newblock Barbara {Liskov}, February 2015.
+\newblock Page Version ID: 646590588.
+\newblock URL:
+  \url{http://en.wikipedia.org/w/index.php?title=Barbara_Liskov&oldid=646590588}.
+
+\bibitem{wikipedia_grace_2015}
+Wikipedia.
+\newblock Grace {Hopper}, March 2015.
+\newblock Page Version ID: 650412004.
+\newblock URL:
+  \url{http://en.wikipedia.org/w/index.php?title=Grace_Hopper&oldid=650412004}.
+
+\bibitem{wikipedia_guy_2015}
+Wikipedia.
+\newblock Guy {L}. {Steele} {Jr}., March 2015.
+\newblock Page Version ID: 649890638.
+\newblock URL:
+  \url{http://en.wikipedia.org/w/index.php?title=Guy_L._Steele_Jr.&oldid=649890638}.
+
+\bibitem{wirth_compiler_1996}
+Niklaus Wirth.
+\newblock {\em Compiler {Construction}}.
+\newblock Addison Wesley, Reading, Mass., June 1996.
+
+\end{thebibliography}

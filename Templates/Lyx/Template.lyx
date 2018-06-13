@@ -1,0 +1,1214 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass report
+\begin_preamble
+
+\usepackage[german,english]{babel}
+% See geometry.pdf to learn the layout options. There are lots.
+                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{epstopdf}
+%\usepackage[applemac]{inputenc}
+\usepackage{graphicx}
+%\usepackage{fancyhdr}
+
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+%\rhead{\includegraphics[scale=.9]{Logo.png}}
+\end_preamble
+\use_default_options false
+\begin_modules
+customHeadersFooters
+\end_modules
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 2
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+chead{
+\backslash
+includegraphics[scale=0.9]{Logo.png}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cfoot{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{fancy}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset VSpace 8em*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size largest
+Diploma Thesis
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset VSpace 2em
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Höhere Technische Bundeslehranstalt Leonding 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[.5em]
+\end_layout
+
+\end_inset
+
+ Abteilung für EDV und Organisation
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset VSpace 8em
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size giant
+Template for Diploma Thesis
+\size default
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 14em
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Submitted by: 
+\series bold
+Peter Bauer, 5BHDV
+\series default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[.5em]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Date: 
+\series bold
+October 6, 2012
+\series default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[.5em]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Supervisor: 
+\series bold
+Peter Bauer
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{plain}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Declaration of Academic Honesty
+\end_layout
+
+\begin_layout Standard
+Hereby, I declare that I have composed the presented paper independently
+ on my own and without any other resources than the ones indicated.
+ All thoughts taken directly or indirectly from external sources are properly
+ denoted as such.
+\end_layout
+
+\begin_layout Standard
+This paper has neither been previously submitted to another authority nor
+ has it been published yet.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[1em]
+\end_layout
+
+\end_inset
+
+ Leonding, October 6, 2012 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[5em]
+\end_layout
+
+\end_inset
+
+ Peter Bauer 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[5em]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{otherlanguage}{german}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Eidesstattliche Erklärung
+\end_layout
+
+\begin_layout Standard
+Hiermit erkäre ich an Eides statt, dass ich die vorgelegte Diplomarbeit
+ selbständig und ohne Benutzung anderer als der angegebenen Hilfsmittel
+ angefertigt habe.
+ Gedanken, die aus fremden Quellen direkt oder indirekt übernommen wurden,
+ sind als solche gekennzeichnet.
+\end_layout
+
+\begin_layout Standard
+Die Arbeit wurde bisher in gleicher oder ähnlicher Weise keiner anderen
+ Prüfungsbehörde vorgelegt und auch noch nicht veröffentlicht.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[1em]
+\end_layout
+
+\end_inset
+
+ Leonding, am 6.
+ Oktober 2012 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[5em]
+\end_layout
+
+\end_inset
+
+ Peter Bauer 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{otherlanguage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+Here you describe briefly what your thesis is all about.
+ It should animate the reader to dig further into your thesis.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{otherlanguage}{german}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+Hier beschreiben Sie überblicksartig den Inhalt Ihrer Diplomarbeit.
+ Sie sollten in der Zusammenfassung so schreiben, dass Sie den/die LeserIn
+ zum Weiterlesen animieren und er mehr über Ihre Arbeit erfahren will.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{otherlanguage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section*
+Acknowledgements
+\end_layout
+
+\begin_layout Standard
+If you feel like.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Introduction
+\end_layout
+
+\begin_layout Section
+Initial Situation
+\end_layout
+
+\begin_layout Standard
+Common word processors do not prepare print-like documents in so far as
+ these programs do not reflect the rules of professional printing which
+ have been grown over centuries.
+ These rules contain clear requirements for balancing page layouts, the
+ amount of white space on pages, font-handling, etc.
+ Donald Knuth's TeX package (see
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "knuth83"
+
+\end_inset
+
+) is a word processor which conforms to these printing rules.
+ This package was enhanced by Leslie Lamport by providing more text structuring
+ commands.
+ He called his package LaTeX (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lamport94"
+
+\end_inset
+
+).
+ Since both packages do not provide neat graphical point-and-click user
+ interfaces the open-source-community started to develop a graphical front
+ end which is called LyX.
+\end_layout
+
+\begin_layout Standard
+When preparing a thesis, we want not only to have our content on a top level,
+ we also want to commit to a high level of formal criteria.
+ Therefore, we request you to use one of these professional printing production
+ environments like TeX or LaTeX.
+ If you are already addicted to point-and-click user interfaces then you
+ may, of course, use LyX as a (sometimes) more convenient front end.
+\end_layout
+
+\begin_layout Standard
+Furthermore you should train your scientific writing skills.
+ This includes a clear and structured break-down of your ideas, a high-level
+ and clear wording, and the training of transparent citations of ideas from
+ other sources than from yours.
+ A good source for more information concerning technical and scientific
+ writing can be found in
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "rechenberg06"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Standard
+Details of the diploma thesis have to be aligned between student and supervisor.
+ This should be a basic structure to facilitate the first steps when students
+ start to write their theses.
+\end_layout
+
+\begin_layout Standard
+Never forget to add some illustrative images.
+ Images must not be messed up with your normal text.
+ They are encapsulated in floating bodies and referenced in your text.
+ An example can be seen in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sample"
+
+\end_inset
+
+.
+ As you can see, figures are placed by default on top of the page nearby
+ the place where they are referenced the first time.
+ Furthermore you can see that a list of figures is maintained automatically
+ which can be included easily by typing the command 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb1
+\backslash
+listoffigures1
+\end_layout
+
+\end_inset
+
+ into your document.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename don_knuth.jpg
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Don Knuth, the inventor of TeX
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sample"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Basic Terminology
+\end_layout
+
+\begin_layout Section
+Related Work and Projects
+\end_layout
+
+\begin_layout Chapter
+Requirements
+\end_layout
+
+\begin_layout Standard
+The details of the structure of your thesis have to be aligned with your
+ supervisor.
+ Most of the time it will be a good idea to summarize the requirements of
+ the system you want to implement in a well structured way.
+ The first chapter dealing with an in-depth topic of your thesis is maybe
+ a good place to elaborate these requirements.
+\end_layout
+
+\begin_layout Standard
+Maybe you need a table in this chapter.
+ So lets try to insert one.
+ Again we place this thing in a floating body.
+ So this maybe solves your confusion if you find two tables to be found
+ in the menu Insert.
+ One for the floating body, one for the table itself.
+ The result can be seen in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:sample"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Head
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Head
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Head
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Head
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Head
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+A sample table
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:sample"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+First In-Depth Topic
+\end_layout
+
+\begin_layout Standard
+Algorithms are another example of floating bodies which are referenced in
+ the text as here with algorithm 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:useless"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "language=Java"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+interface Useless {
+\end_layout
+
+\begin_layout Plain Layout
+
+	public void noMethod();
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+A first attempt on the Useless interface
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "alg:useless"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Chapter
+Last In-Depth Topic
+\end_layout
+
+\begin_layout Chapter
+Summary
+\end_layout
+
+\begin_layout Standard
+Here you give a summary of your results and experiences.
+ You can add also some design alternatives you considered, but kicked out
+ later.
+ Furthermore you might have some ideas how to drive the work you accomplished
+ in further directions.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "1"
+key "knuth83"
+
+\end_inset
+
+Donald Knuth, 
+\emph on
+The TeXbook
+\emph default
+, Addison-Wesley, Massachusetts, 1983
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "2"
+key "lamport94"
+
+\end_inset
+
+ Leslie Lamport, 
+\emph on
+LaTeX: A Document Preparation System
+\emph default
+.
+ Addison Wesley, Massachusetts, 2nd Edition, 1994.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "3"
+key "rechenberg06"
+
+\end_inset
+
+Peter Rechenberg, 
+\emph on
+Technisches Schreiben (nicht nur) für Informatiker
+\emph default
+, Carl Hanser Verlag, München/Berlin, 3.
+ Auflage, 2006.
+\end_layout
+
+\begin_layout Standard
+\start_of_appendix
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%dummy comment inserted by tex2lyx to ensure that this paragraph is not
+ empty
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Source Code
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Source-Code"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If needed.
+ Check this with your supervisor.
+\end_layout
+
+\begin_layout Chapter
+Project Proposal
+\end_layout
+
+\begin_layout Standard
+Again to be aligned with your supervisor whether this makes sense.
+\end_layout
+
+\begin_layout Chapter
+Project Plan
+\end_layout
+
+\begin_layout Standard
+See appendix
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Source-Code"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Chapter
+Meeting Minutes
+\end_layout
+
+\begin_layout Standard
+See appendix
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Source-Code"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Chapter
+Test Protocols
+\end_layout
+
+\begin_layout Standard
+See appendix
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Source-Code"
+
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

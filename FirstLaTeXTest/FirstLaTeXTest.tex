@@ -1,0 +1,39 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{a4paper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+
+\title{A Test Page}
+\author{Peter Bauer}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+\section{Hello World}
+If you can read this from a page which looks rather structured then you managed to install your \LaTeX-package successfully. As you can see now the content including the structural information of a document is stored in a file with the extension .tex. After typsetting \LaTeX\ generates a number of auxiliary files which are basically necessary to fix the cross references within the document.
+
+\section{Explanation of the Markup}
+If you look into the file \verb$FirstLaTeXTest.tex$ you can see a few lines of markup code which will be explained here. Try to link these parts to the familiar html markup and most stuff will be easy to remember.
+
+\begin{description}
+	\item[{\tt \textbackslash documentclass}] This is the very first command were the ``kind'' of the document is defined. {\tt article} is the smallest class, larger documents can be {\tt report} or {\tt book}. Depending on the documentclass different layouts are defined, e.g., article and report are one-sided, book is two-sided and all the classes have different headers and footers.
+	
+	\item[{\tt \textbackslash usepackage}] Despite of its core functionality \LaTeX\ is organized in packages. These are loaded via the command {\tt \textbackslash usepackage}. The package {\tt geometry} allows us to set the basic geometry of our document as given in the next line or let us set the orientation (portrait or landscape) of our document.
+	
+	\item[{\tt \textbackslash title}, {\tt \textbackslash author}, and {\tt \textbackslash date}] Well \ldots
+	
+	\item[{\tt \textbackslash begin\{document\}}] A \LaTeX\ document is basically divided into two parts, the {\em preamble} and the {\em document environment}. All lines before {\tt \textbackslash begin\{document\}} is the preamble. With {\tt \textbackslash begin\{document\}} the document environment starts within which all markup to describe the content of your document is placed. This is pretty similar to the overall structure of an html document. Remember the header and the body elements.
+	
+	\item[{\tt \textbackslash maketitle}] This makes \LaTeX\ display the information given in the {\tt \textbackslash title}, {\tt \textbackslash author}, and {\tt \textbackslash date} commands.
+	
+	\item[{\tt \textbackslash section}]  This is the top level of structure possible in an article. Further commands would be {\tt \textbackslash subsection},  {\tt \textbackslash subsubsection}, and  {\tt \textbackslash paragraph}. Again some analogy to the html section and p element is given.
+	
+	\item[{\tt \textbackslash begin\{description\}}]  This starts a description environment. This environment is useful to describe terms similar to the html dl element. The terms are given within square brackets and the description is given right after the term.
+	
+	\item[{\tt \textbackslash tt}, {\tt \textbackslash em}, \ldots] Some useful visual markup commands like the use of  a typewriter font, bold font, italic, emphasize text, etc. are given. Generally it is discouraged to use visual markup extensively. Generic markup like {\tt \textbackslash section}, etc., shall be used instead.
+\end{description}
+
+\section{Next Steps}
+Download the template for the diploma thesis, try to typeset it and get a clear picture with your teammates about the big headlines of your thesis.
+\end{document}  
