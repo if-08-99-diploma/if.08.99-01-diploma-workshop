@@ -46,7 +46,7 @@ After having downloaded the LaTeX package we should give it a first try. The pro
 - LaTeX: Generate a pretty print (mostly in pdf format) out of the source code. This step has different names. Some say "to LaTeX a file" some "to TeX a file" others "to typeset a file". Your choice as long as you pronounce it correctly ;-)
 - Final document: In our case always pdf.
 
-1. Open the [first LaTeXDocument](FirstLaTeXTest/FirstLateXTest.tex) in your LaTeX-Editor
+1. Open the [first LaTeXDocument](FirstLaTeXTest/FirstLaTeXTest.tex) in your LaTeX-Editor
 1. LaTeX the file
 1. When you were successfully typesetting the tex-file a number of further files can be found in your folder (aux, log, console, ...)
 1. Open the pdf file and you should be able to see the final document
