@@ -1,5 +1,6 @@
 
-# Created by https://www.gitignore.io/api/latex,macos,windows
+# Created by https://www.gitignore.io/api/latex,linux,macos,windows
+# Edit at https://www.gitignore.io/?templates=latex,linux,macos,windows
 
 ### LaTeX ###
 ## Core latex/pdflatex auxiliary files:
@@ -14,6 +15,7 @@
 *.fot
 *.cb
 *.cb2
+.*.lb
 
 ## Intermediate documents:
 *.dvi
@@ -42,7 +44,10 @@
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
-*Notes.bib
+
+## Build tool directories for auxiliary files
+# latexrun
+latex.out/
 
 ## Auxiliary and intermediate files from other packages:
 # algorithms
@@ -63,6 +68,9 @@ acs-*.bib
 
 # changes
 *.soc
+
+# comment
+*.cut
 
 # cprotect
 *.cpt
@@ -107,12 +115,23 @@ acs-*.bib
 *.gls
 *.glsdefs
 
+# uncomment this for glossaries-extra (will ignore makeindex's style files!)
+# *.ist
+
 # gnuplottex
 *-gnuplottex-*
 
 # gregoriotex
 *.gaux
 *.gtex
+
+# htlatex
+*.4ct
+*.4tc
+*.idv
+*.lg
+*.trc
+*.xref
 
 # hyperref
 *.brf
@@ -126,11 +145,13 @@ acs-*.bib
 # listings
 *.lol
 
+# luatexja-ruby
+*.ltjruby
+
 # makeidx
 *.idx
 *.ilg
 *.ind
-*.ist
 
 # minitoc
 *.maf
@@ -149,7 +170,9 @@ _minted*
 *.mw
 
 # nomencl
+*.nlg
 *.nlo
+*.nls
 
 # pax
 *.pax
@@ -178,6 +201,9 @@ sympy-plots-for-*.tex/
 *.pytxcode
 pythontex-files-*/
 
+# tcolorbox
+*.listing
+
 # thmtools
 *.loe
 
@@ -189,8 +215,18 @@ pythontex-files-*/
 # todonotes
 *.tdo
 
+# vhistory
+*.hst
+*.ver
+
 # easy-todo
 *.lod
+
+# xcolor
+*.xcp
+
+# xmpincl
+*.xmpi
 
 # xindy
 *.xdy
@@ -213,6 +249,9 @@ TSWLatexianTemp*
 # Texpad
 .texpadtmp
 
+# LyX
+*.lyx~
+
 # Kile
 *.backup
 
@@ -220,17 +259,37 @@ TSWLatexianTemp*
 *~[0-9]*
 
 # auto folder when using emacs and auctex
-/auto/*
+./auto/*
+*.el
 
 # expex forward references with \gathertags
 *-tags.tex
+
+# standalone packages
+*.sta
 
 ### LaTeX Patch ###
 # glossaries
 *.glstex
 
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
 ### macOS ###
-*.DS_Store
+# General
+.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -259,11 +318,15 @@ Temporary Items
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
+Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
 
+# Dump file
+*.stackdump
+
 # Folder config file
-Desktop.ini
+[Dd]esktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
@@ -271,11 +334,11 @@ $RECYCLE.BIN/
 # Windows Installer files
 *.cab
 *.msi
+*.msix
 *.msm
 *.msp
 
 # Windows shortcuts
 *.lnk
 
-
-# End of https://www.gitignore.io/api/latex,macos,windows
+# End of https://www.gitignore.io/api/latex,linux,macos,windows
