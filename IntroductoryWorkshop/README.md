@@ -54,3 +54,18 @@ After having downloaded the LaTeX package we should give it a first try. The pro
 1. Read the document and analyse the tex-file along the description given in the document
 1. Add another section named "My Personal Remarks" to the document and list your remarks what you would like to have changed in this document to make it better understandable. If the document was perfect to you, simply add a sentence like "Thanks for the great explanation, I understood everything". Of course, your personal remarks can also be in German.
 1. Do not worry if you are not pleased yet with the formatting. We will fix this in the online phase.
+
+## Installing Zotero
+Zotero is a tool that helps you to organize your bibliography. If you have it installed you can add links to web sites, books, journals, article references, etc. (mostly) to a personal bibliography database by a single click in your browser. This library can then be exported into a BibTeX format from which it is easily included into your diploma thesis.
+
+Zotero consists of two parts:
+
+- A stand-alone application to manage your database
+- A browser plug-in to add entries to Zotero via a single click from your browser.
+- Download both from [the Zotero website](https://www.zotero.org/download/) and install according to the instructions given.
+
+## Getting Started With Your Diploma Thesis
+1. Go to the directory [Templates](../Templates/LaTeX) of this repository
+1. Open the file Main.tex and typeset it
+1. Collect a tentative list of chapters of your thesis (Teamwork with your diploma thesis team mates )
+1. Relax and be happy
