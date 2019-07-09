@@ -69,3 +69,5 @@ Zotero consists of two parts:
 1. Open the file Main.tex and typeset it
 1. Collect a tentative list of chapters of your thesis (Teamwork with your diploma thesis team mates )
 1. Relax and be happy
+
+[Next Step (Work with Zotero)](Zotero.md)
