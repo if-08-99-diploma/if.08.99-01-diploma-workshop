@@ -3,5 +3,3 @@
 - [RDP INFO WEBadresse](OrganizationalDocuments/RDP_INFO_WEBadresse.docx)
 - [Kurzfassungen ausgewählter Arbeiten HTL](OrganizationalDocuments/Diplomarbeit_Kurzfassungen_ausgewaehlter_Arbeiten_HTL.pdf)
 - [SRDP Info File](OrganizationalDocuments/SRDP_Info.ppt)
-- [Kurzfassungen ausgewählter Arbeiten HTL](OrganizationalDocuments/Diplomarbeit_Kurzfassungen_ausgewaehlter_Arbeiten_HTL.pdf)
-- [SRDP Info File](SRDP_Info.ppt)
