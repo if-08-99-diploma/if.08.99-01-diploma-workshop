@@ -1,4 +1,4 @@
-# Introduction to LaTeX and Zotero
+# Workshop: Offline Phase: Installation and Test of Software
 ## Why LaTeX?
 ### LaTeX Compared to Microsoft Word/Apple Pages/LibreOffice Writer/etc.
 LaTeX is a text processor which is especially designed for larger texts and texts which should go towards printed output. Common word processors (MS Word, Apple Pages, Libre and OpenOffice, ...) do not prepare print-like documents in so far as these programs do not reflect the rules of professional printing which have been grown over centuries. These rules contain clear requirements for balancing page layouts, the amount of white space on pages, font-handling, etc. LaTeX is a sort of markup language (similar to html or markdown) which allows authors to concentrate on the structure of their texts and leave a professional layout to the software. The pros of LaTeX over Word or similar WYSIWYG editors are the following
