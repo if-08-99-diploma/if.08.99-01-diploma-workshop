@@ -22,6 +22,6 @@ The online phase then is again divided into two parts, namely one about LaTeX an
 ## Link to the content
 1. [Offline phase](OfflinePhase.md)
 1. Online phase
-    1. [LaTeX](LaTeX.md)
     1. [Zotero](Zotero.md)
+    1. [LaTeX](LaTeX.md)
     1. [Organizational](Organizational.md)
