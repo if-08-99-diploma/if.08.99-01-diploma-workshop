@@ -1,7 +1,7 @@
 # Workshop: Introduction to LaTeX, Zotero, and Scientific Writing
 
 ## Overview
-In this workshop we want to give our students of the 4th grade some tools to facilitate their way through the preparation of their diploma thesis. Of course, this way already starts during work on their hardware / software projects therefore we discuss different scenarios how to preserve project accomplishments in a way that they can result in a well readable chapter of their documentation which is typically done a few weeks or even months later.
+In this workshop we want to give our students of the 4th grade some tools to facilitate their way through the preparation of their diploma thesis. Of course, this way already starts during work on their hardware / software projects therefore we discuss different scenarios how to preserve project accomplishments in a way that they can result in well readable chapters of their documentation which is typically done a few weeks or even months later.
 
 Another time consuming step is the creation of a pleasant and uniformly looking title page. So we provide a template to the students where they only have to fill their thesis specific data and a first version of their thesis can be seen already during this workshop.
 
