@@ -30,6 +30,8 @@ On Mac you use MacTeX and TeXShop. Similarly to Windows you need a LaTeX engine 
 
 Ubuntu provides LaTeX via its package management system. By typing the command apt-get install texlive into the terminal the installation of LaTeX should be done.
 
+Another good and cross-plat alternative is Visual Studio Code + LaTeX Workshop plugin.
+
 Direkt links to the download pages are as follows:
 
 - MacTeX to be downloaded from [MacTeX](http://www.tug.org/mactex/)
